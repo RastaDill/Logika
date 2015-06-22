@@ -1,0 +1,66 @@
+Logika
+Это игра в жанре логическая аркада
+
+###### Запуск ######
+
+1) ОС GNU/Linux:
+  a) установить библиотеку pygame (имеется в репозиториях всех популярных дистрибутивах)
+  б) двойным нажатием левой клавиши мыши запустить файл logika.py или прописав в терминале: python logika.py
+
+2) ОС Windows:
+  a) установить язык Python 2.7 (https://www.python.org/downloads/windows/)
+  б) установить библиотеку pygame (http://pygame.org/download.shtml)
+  в) двойным нажатием левой клавиши мыши запустить файл logika.py
+  
+3) ОС OS X:
+  *Не проверялась*
+  Принцип установки такой же как и в случае Windows (см. выше)
+
+###### Введение ######
+
+Вы, сотрудник космического коробля. Во время длительного полёта на его борту был обнаружен никому неизвестный предмет.
+По предварительным данным это детонатор. Вам доверена задача его разблокировать! Удачи!!!
+
+###### Правила ######
+
+В вашем распоряжении находится 10 цветных блоков. Вам необходимо выбрать 4 блока и расположить их в линию.
+Всего линий 8. Ваша цель разгадать закодированную последовательность блоков.
+Гамма подскажет сколько блоков выбрано правильного цвета и стоящих на своём месте.
+Омега подскажет сколько блоков выбрано правильного цвета но стоящих не на своём месте.
+
+###### Авторы ######
+
+Программист/ Художник/ Гейм-дизайнер:
+  Вознесенский (WeedMan) Михаил
+
+Звук:
+  Распространяется по лицензии Creative Commons Attribution 3.0 Unported (https://creativecommons.org/licenses/by/3.0/):
+    digifishmusic (http://www.digifishmusic.com/): Electric_Screwdriver (http://www.freesound.org/people/digifishmusic/sounds/22437/)
+    wildweasel (http://www.freesound.org/people/wildweasel/): cardlock-open (http://www.freesound.org/people/wildweasel/sounds/39028/)
+    samule44 (http://www.freesound.org/people/samule44/): Metal Pan Sliding (http://www.freesound.org/people/samule44/sounds/96025/)
+    kingsamas (http://www.samasbeatz.com/): On-Off (http://www.freesound.org/people/kingsamas/sounds/135567/)
+    Autistic Lucario (https://www.patreon.com/RyanSmith?ty=h): Error (http://www.freesound.org/people/Autistic%20Lucario/sounds/142608/)
+    D W (http://www.freesound.org/people/D%20W/): Electronics-Flashlight-Plastic-Button-03 (http://www.freesound.org/people/D%20W/sounds/152535/)
+    tlwm (https://www.facebook.com/lonelywaxman): door (http://www.freesound.org/people/tlwm/sounds/165862/)
+    qubodup (qubodup.net): Ceber Off (http://www.freesound.org/people/qubodup/sounds/219586/)
+    NoiseCollector (https://archive.org/details/noisecollector):
+      bulletimpact_wmrind4 (http://www.freesound.org/people/NoiseCollector/sounds/237446/)
+      bulletimpact_wood2 (http://www.freesound.org/people/NoiseCollector/sounds/237447/)
+
+###### Спасибо ######
+
+Гвидо ван Россум
+Пит Шиннерс
+Майкл Доусон
+Пол Винсент Крейвен
+freesound.org:
+  davidworksonline
+  fordps3
+  jamesabdulrahman
+  smuz
+  stk13
+Моей Девушке
+
+############
+
+Данная программа распространяется под свободной лицензией GNU/GPL v.3
