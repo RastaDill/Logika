@@ -85,9 +85,7 @@ class Game(object):
         self.render_up_candy = True  # render candy over other sprites
 
         # general game data
-        self.variant_number = range(
-            10
-        )  # all number which can be in secret combination (variant_number = id_number)
+        self.variant_number = list(range(10))  # all number which can be in secret combination (variant_number = id_number)
         self.secret_comb = []  # secret combination which must guess player
         self.end_game = None  # check game over or not
         self.winning = None  # check win or lose
@@ -335,7 +333,7 @@ class Game(object):
         """Restart game"""
         self.line = 0
         self.count_frame = 0
-        self.variant_number = range(10)
+        self.variant_number = list(range(10))
         del self.secret_comb[:]
 
         self.block_list.empty()
